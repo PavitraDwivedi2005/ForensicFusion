@@ -1,0 +1,7 @@
+event_id,timestamp,username,source_ip,auth_result,ssh_session,event_type
+S2-AUTH-001,2026-11-25T10:10:00Z,alice,10.0.0.5,success,101,ssh_login
+S2-AUTH-002,2026-11-25T10:10:02Z,alice,10.0.0.5,success,101,session_opened
+S2-AUTH-003,2026-11-25T10:10:15Z,bob,10.0.0.8,success,102,ssh_login
+S2-AUTH-004,2026-11-25T10:10:17Z,bob,10.0.0.8,success,102,session_opened
+S2-AUTH-005,2026-11-25T10:12:00Z,alice,10.0.0.5,success,101,session_closed
+S2-AUTH-006,2026-11-25T10:12:30Z,bob,10.0.0.8,success,102,session_closed

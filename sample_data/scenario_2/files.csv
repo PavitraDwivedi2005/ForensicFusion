@@ -1,0 +1,6 @@
+event_id,timestamp,username,session_id,pid,file_path,action,file_hash
+S2-FILE-001,2026-11-25T10:10:30Z,alice,101,5110,/home/alice/report.pdf,read,d4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5
+S2-FILE-002,2026-11-25T10:10:45Z,bob,102,5210,/home/bob/notes.txt,read,f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2
+S2-FILE-003,2026-11-25T10:11:15Z,alice,101,5115,/var/log/syslog,read,e8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9
+S2-FILE-004,2026-11-25T10:11:10Z,bob,102,5210,/home/bob/notes.txt,modify,1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b
+S2-FILE-005,2026-11-25T10:11:30Z,bob,102,5215,/home/bob/analysis.py,read,2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c

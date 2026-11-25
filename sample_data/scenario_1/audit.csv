@@ -1,0 +1,10 @@
+event_id,timestamp,username,uid,audit_session,pid,ppid,command,executable,event_type
+S1-AUDIT-001,2026-11-25T10:00:00Z,testuser,1001,42,4521,1,sshd,/usr/sbin/sshd,accept_connection
+S1-AUDIT-002,2026-11-25T10:00:01Z,testuser,1001,42,4522,4521,bash,/bin/bash,shell_start
+S1-AUDIT-003,2026-11-25T10:00:45Z,testuser,1001,42,4530,4522,sudo su,/usr/bin/sudo,privilege_escalation
+S1-AUDIT-004,2026-11-25T10:00:46Z,root,0,42,4531,4530,su,/bin/su,shell_start
+S1-AUDIT-005,2026-11-25T10:01:15Z,root,0,42,4535,4531,cat /etc/passwd,/bin/cat,file_access
+S1-AUDIT-006,2026-11-25T10:02:10Z,root,0,42,4538,4531,cat /home/testuser/documents/confidential.txt,/bin/cat,file_access
+S1-AUDIT-007,2026-11-25T10:03:00Z,root,0,42,4540,4531,nano /home/testuser/documents/confidential.txt,/usr/bin/nano,file_modify
+S1-AUDIT-008,2026-11-25T10:04:30Z,root,0,42,4545,4531,cp /home/testuser/documents/confidential.txt /tmp/backup.txt,/bin/cp,file_copy
+S1-AUDIT-009,2026-11-25T10:05:00Z,testuser,1001,42,4522,4521,exit,/bin/bash,session_end

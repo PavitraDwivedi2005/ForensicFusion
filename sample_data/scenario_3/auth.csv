@@ -1,0 +1,7 @@
+event_id,timestamp,username,source_ip,auth_result,ssh_session,event_type
+S3-AUTH-001,2026-11-25T10:00:00Z,testuser,172.16.0.5,success,201,ssh_login
+S3-AUTH-002,2026-11-25T10:00:02Z,testuser,172.16.0.5,success,201,session_opened
+S3-AUTH-003,2026-11-25T10:04:30Z,testuser,172.16.0.5,success,201,session_closed
+S3-AUTH-004,2026-11-25T10:30:00Z,testuser,192.168.1.20,success,202,ssh_login
+S3-AUTH-005,2026-11-25T10:30:02Z,testuser,192.168.1.20,success,202,session_opened
+S3-AUTH-006,2026-11-25T10:34:30Z,testuser,192.168.1.20,success,202,session_closed

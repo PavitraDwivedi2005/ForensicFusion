@@ -1,0 +1,9 @@
+event_id,timestamp,username,uid,audit_session,pid,ppid,command,executable,event_type
+S2-AUDIT-001,2026-11-25T10:10:03Z,alice,1002,101,5101,5100,bash,/bin/bash,shell_start
+S2-AUDIT-002,2026-11-25T10:10:18Z,bob,1003,102,5201,5200,bash,/bin/bash,shell_start
+S2-AUDIT-003,2026-11-25T10:10:30Z,alice,1002,101,5110,5101,cat /home/alice/report.pdf,/bin/cat,file_access
+S2-AUDIT-004,2026-11-25T10:10:45Z,bob,1003,102,5210,5201,nano /home/bob/notes.txt,/usr/bin/nano,file_modify
+S2-AUDIT-005,2026-11-25T10:11:15Z,alice,1002,101,5115,5101,grep -r error /var/log/syslog,/bin/grep,file_access
+S2-AUDIT-006,2026-11-25T10:11:30Z,bob,1003,102,5215,5201,python3 /home/bob/analysis.py,/usr/bin/python3,process_exec
+S2-AUDIT-007,2026-11-25T10:11:55Z,alice,1002,101,5101,5100,exit,/bin/bash,session_end
+S2-AUDIT-008,2026-11-25T10:12:25Z,bob,1003,102,5201,5200,exit,/bin/bash,session_end

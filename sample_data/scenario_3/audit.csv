@@ -1,0 +1,7 @@
+event_id,timestamp,username,uid,audit_session,pid,ppid,command,executable,event_type
+S3-AUDIT-001,2026-11-25T10:00:03Z,testuser,1001,201,6101,6100,bash,/bin/bash,shell_start
+S3-AUDIT-002,2026-11-25T10:02:00Z,testuser,1001,201,6110,6101,cat /etc/app/config.yml,/bin/cat,file_access
+S3-AUDIT-003,2026-11-25T10:04:28Z,testuser,1001,201,6101,6100,exit,/bin/bash,session_end
+S3-AUDIT-004,2026-11-25T10:30:03Z,testuser,1001,202,6201,6200,bash,/bin/bash,shell_start
+S3-AUDIT-005,2026-11-25T10:32:00Z,testuser,1001,202,6210,6201,nano /etc/sysctl.conf,/usr/bin/nano,file_modify
+S3-AUDIT-006,2026-11-25T10:34:28Z,testuser,1001,202,6201,6200,exit,/bin/bash,session_end

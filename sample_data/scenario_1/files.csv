@@ -1,0 +1,6 @@
+event_id,timestamp,username,session_id,pid,file_path,action,file_hash
+S1-FILE-001,2026-11-25T10:01:15Z,root,42,4535,/etc/passwd,read,a3f2b8c91d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a
+S1-FILE-002,2026-11-25T10:02:10Z,root,42,4538,/home/testuser/documents/confidential.txt,read,b7e4d2f1a9c8b3d6e5f4a7c2b1d0e9f8a7b6c5d4e3f2a1b0c9d8e7f6a5b4c3d2
+S1-FILE-003,2026-11-25T10:03:00Z,root,42,4540,/home/testuser/documents/confidential.txt,read,b7e4d2f1a9c8b3d6e5f4a7c2b1d0e9f8a7b6c5d4e3f2a1b0c9d8e7f6a5b4c3d2
+S1-FILE-004,2026-11-25T10:03:55Z,root,42,4540,/home/testuser/documents/confidential.txt,modify,c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2
+S1-FILE-005,2026-11-25T10:04:30Z,root,42,4545,/tmp/backup.txt,create,c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2

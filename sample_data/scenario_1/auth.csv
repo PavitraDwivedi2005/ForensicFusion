@@ -1,0 +1,7 @@
+event_id,timestamp,username,source_ip,auth_result,ssh_session,event_type
+S1-AUTH-001,2026-11-25T10:00:00Z,testuser,192.168.56.10,success,42,ssh_login
+S1-AUTH-002,2026-11-25T10:00:01Z,testuser,192.168.56.10,success,42,session_opened
+S1-AUTH-003,2026-11-25T10:00:45Z,testuser,192.168.56.10,success,42,sudo_auth
+S1-AUTH-004,2026-11-25T10:00:46Z,root,192.168.56.10,success,42,sudo_session_opened
+S1-AUTH-005,2026-11-25T10:05:00Z,root,192.168.56.10,success,42,sudo_session_closed
+S1-AUTH-006,2026-11-25T10:05:02Z,testuser,192.168.56.10,success,42,session_closed
